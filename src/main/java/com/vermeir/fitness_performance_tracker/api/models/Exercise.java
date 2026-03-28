@@ -13,6 +13,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 
+// exercise table
 @Entity
 @Table(name = "exercises")
 public class Exercise {

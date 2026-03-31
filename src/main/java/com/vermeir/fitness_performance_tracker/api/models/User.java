@@ -23,6 +23,21 @@ public class User {
 
 	private String name;
 
+	// JPA constructor
+	public User() {}
+	
+	public User(String name) {
+		this.name = name;
+	}
+	
+	public int getId() {
+		return Id;
+	}
+
+	public void setId(int id) {
+		Id = id;
+	}
+
 	public String getName() {
 		return name;
 	}
